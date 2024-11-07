@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Marck+Script&family=Playwrite+CU:wght@100..400&family=Shadows+Into+Light&display=swap');
 
 body{
-    color: #ffefef;
+    color: white;
     background-color: #ffefef;
 }
 
@@ -23,7 +23,7 @@ header{
     background-color: #ffefef;
     width: 300px;
     height: 250px;
-    display: flex;
+    
 }
 #lista2{
     display: flex;
@@ -46,7 +46,7 @@ header{
 a{
     font-family: "Montserrat";
     font-size: 3rem;
-    color:#ffefef;
+    color:white;
     text-decoration: none;
 }
 

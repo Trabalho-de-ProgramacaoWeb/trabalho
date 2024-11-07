@@ -3,7 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Marck+Script&family=Playwrite+CU:wght@100..400&family=Shadows+Into+Light&display=swap');
 
-/*Cabeçalho*/
+/*cabeçalho*/
 #linha1{
     margin: 15px 0 0 0;
     height: 210px;
@@ -31,7 +31,7 @@
     position: relative;
     top: -18px;
     font-family: "Shadows Into Light";
-    font-size: 10rem;   
+    font-size: 10rem;  
 }
 
 #lista1{
@@ -63,71 +63,3 @@
     font-size: 8rem;
 }
 
-#txt5{
-    font-size: 2rem;
-    text-align: justify;
-    display: flex;
-}
-
-#linha3{
-    display: flex;
-    border-radius: 30px;
-    background-color: #8f7b76;
-    width: 1700px;
-    height: 120px;
-    padding: 8px 20px 0 20px;
-    margin: 0 0 0 100px;   
-}
-/*Fim do Texto*/
-
-
-/*Opções*/
-#linha4{
-    height: 410px;
-}
-
-#opc1{
-    width: 400px;
-    height: 360px;
-    border-radius: 100%;
-    background-color: #a8b6bd;
-}
-
-#opc2{
-    width: 400px;
-    height: 360px;
-    border-radius: 100%;
-    background-color:#d3a099;
-}
-
-#lista2{
-    margin: 50px 0 0 0;
-    display: flex;
-    justify-content: center;
-    gap: 80px;
-    list-style: none;
-}
-
-#linha5{
-    height: 100px;
-}
-
-#lista3{
-    color:#8f7b76;
-    font-family:"Shadows Into Light";
-    font-size: 4.5rem;
-    display: flex;
-    justify-content: center;
-    gap: 290px;
-    list-style: none;
-}
-
-#opc1t{
-    color:#8f7b76;
-    text-decoration: none;
-}
-
-#opc2t{
-    color:#8f7b76;
-    text-decoration: none;
-}
