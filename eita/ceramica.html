@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en; pt-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 </head>
 
 <body id="corpo">
-    <!--Cabeçalho-->
+    <!-- Cabeçalho -->
     <nav>
         <div class="row" id="linha1">
             <div id="logo" class="col-2">
@@ -26,11 +26,53 @@
             </div>
         </div> 
     </nav>
-    <!--Fim do cabeçalho-->
+    <!-- Fim do cabeçalho -->
 
-    <!--Texto-->
+    <!-- Texto -->
     <div class="row" id="linha2">
         <div class="col-12">
             <p id="txt4">Tutoriais de cerâmica</p>
         </div>
     </div>
+
+    <!-- Acordeão (Accordion)  ainda ta em fase de teste -->
+    <div class="container mt-4">
+        <div class="accordion" id="accordionTutoriais">
+
+            <!-- Seção Iniciante -->
+            <div class="accordion-item" style="border-color: #8f7b76; background-color: #8f7b76; padding: 40px; margin-top: 15px; margin-bottom: 55px; border-radius: 30px;">
+                <h2 class="accordion-header" id="headingIniciante">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIniciante" aria-expanded="true" aria-controls="collapseIniciante">
+                        Iniciante
+                    </button>
+                </h2>
+               <div id="collapseIniciante" class="accordion-collapse collapse show" aria-labelledby="headingIniciante" data-bs-parent="#accordionTutoriais"> 
+                    <div class="accordion-body" style="color: black;">
+                        <p>Bem-vindo à seção para iniciantes! Aqui você encontrará informações e recursos introdutórios para começar sua jornada no mundo da cerâmica. Aprender a modelar é um processo criativo e desafiador, mas com a prática, você ganhará confiança.</p>
+                        <p>Nesta seção, abordaremos o básico, como escolher os materiais adequados, entender as técnicas fundamentais e os primeiros passos para criar suas peças. Não tenha medo de experimentar!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seção Avançado -->
+            <div class="accordion-item " style="border-color: #8f7b76; background-color: #8f7b76; padding: 40px; margin-top: 15px; margin-bottom: 55px; border-radius: 30px;">
+                <h2 class="accordion-header" id="headingAvancado">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAvancado" aria-expanded="false" aria-controls="collapseAvancado">
+                        Avançado
+                    </button>
+                </h2>
+                <div id="collapseIniciante" class="accordion-collapse collapse show" aria-labelledby="headingIniciante" data-bs-parent="#accordionTutoriais"; style="margin-top: 17px;"> 
+                    <div class="accordion-body" style="color: black;">
+                        <p>Agora que você tem uma boa base, é hora de avançar para técnicas mais complexas e desafiadoras. Na seção avançada, vamos explorar métodos de cerâmica mais sofisticados, como o uso de técnicas de modelagem avançadas e acabamentos especiais.</p>
+                        <p>Aqui você aprenderá sobre o uso de diferentes tipos de fornos, técnicas de esmaltação mais elaboradas e a criação de peças que exigem mais precisão e conhecimento. Prepare-se para levar suas habilidades ao próximo nível!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
