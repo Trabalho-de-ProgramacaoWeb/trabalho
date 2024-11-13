@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Marck+Script&family=Playwrite+CU:wght@100..400&family=Shadows+Into+Light&display=swap');
+
+/*Cabeçalho*/
+#linha1{
+    margin: 15px 0 0 0;
+    height: 210px;
+    background-color: #8f7b76;
+    border-radius: 100px 50px 50px 100px;
+}
+
+#logo{
+    border-radius: 0 180px 80px 0;
+    background-color: #ffefef;  
+}
+
+#img1{
+    width: 300px;
+    height: 250px;
+}
+
+#corpo{
+    color:white;
+    background-color: #ffefef;
+}
+
+#txt1{
+    display: flex;
+    position: relative;
+    top: -18px;
+    font-family: "Shadows Into Light";
+    font-size: 10rem;   
+}
+
+#lista1{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding: 145px 40px 0 0;
+    gap: 80px;
+}
+
+#txt2{
+    color: white;
+    text-decoration: none;
+}
+
+#txt3{
+    color: white;
+    text-decoration: none;
+}
+
+#txt4{
+    font-family: "Shadows Into Light";
+    color:#8f7b76;
+    font-size: 15rem;
+
+}
+
