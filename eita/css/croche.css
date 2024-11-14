@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Marck+Script&family=Playwrite+CU:wght@100..400&family=Shadows+Into+Light&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Mynerve&display=swap');
 /*cabeçalho*/
 #linha1{
     margin: 15px 0 0 0;
@@ -13,7 +13,9 @@
 
 #logo{
     border-radius: 0 180px 80px 0;
-    background-color: #ffefef;  
+    background-color: #ffefef; 
+    height:260px;
+    width: 100px; 
 }
 
 #img1{
@@ -62,4 +64,45 @@
     color:#8f7b76;
     font-size: 8rem;
 }
+/*Fim do texto*/
 
+/*Tutorial 1*/
+#headC{
+    background-color: #8f7b76;
+   
+}
+
+#corpoC{
+    background-color: #a58e88;
+}
+
+#titulo{
+    color: white;
+    font-size: 3rem;
+    font-family: "Delius Unicase";
+}
+
+#txt5{
+    font-size: 2rem;
+}
+/*Fim do tutorial 1*/
+
+/*Tutorial 2*/
+#headC2{
+    background-color: #8f7b76;
+}
+
+#corpoC2{
+    background-color: #a58e88;
+}
+
+#titulo2{
+    color: white;
+    font-size: 3rem;
+    font-family: "Delius Unicase";
+}
+
+#txt6{
+    font-size: 2rem;
+}
+/*Fim do tutorial 2*/
