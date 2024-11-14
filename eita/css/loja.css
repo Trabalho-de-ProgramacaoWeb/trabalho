@@ -6,7 +6,7 @@
 /*Cabeçalho*/
 #linha1{
     margin: 15px 0 0 0;
-    height: 210px;
+    height: 50%;
     background-color: #8f7b76;
     border-radius: 100px 50px 50px 100px;
 }
@@ -17,8 +17,8 @@
 }
 
 #img1{
-    width: 300px;
-    height: 250px;
+    width: 80%;
+    height: 85%;
 }
 
 #corpo{
@@ -29,7 +29,7 @@
 #txt1{
     display: flex;
     position: relative;
-    top: -18px;
+    top: -10%;
     font-family: "Shadows Into Light";
     font-size: 10rem;   
 }
@@ -47,17 +47,36 @@
 #txt2{
     color: white;
     text-decoration: none;
+    width: 50%;
+    height: 50%;
 }
 
 #txt3{
     color: white;
     text-decoration: none;
+    width: 50%;
+    height: 50%;
 }
 
 #txt4{
     font-family: "Shadows Into Light";
     color:#8f7b76;
-    font-size: 15rem;
+    font-size: 8rem;
+    padding: 20px;
 
+}
+
+#txt5{
+    font-size: 1.6rem;
+    text-align: justify;
+    display: flex;
+}
+
+#linha3{
+    display: flex;
+    border-radius: 30px;
+    background-color: #8f7b76;
+    padding: 8px 20px 20px 20px;
+    margin: 10px 20px 20px 100px;   
 }
 
